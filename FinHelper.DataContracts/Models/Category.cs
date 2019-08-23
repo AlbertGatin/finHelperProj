@@ -23,5 +23,10 @@ namespace FinHelper.DataContracts
         /// Операции по категории
         /// </summary>
         public ICollection<Operation> Operations { get; set; }
+
+        public Category()
+        {
+            Operations = new List<Operation>();
+        }
     }
 }

@@ -14,11 +14,11 @@ namespace FinHelper.DataContracts
         /// <summary>
         /// Категория отправителя
         /// </summary>
-        public virtual Category CategoryFrom { get; set; }
+        public Category CategoryFrom { get; set; }
         /// <summary>
         /// Категория получателя
         /// </summary>
-        public virtual Category CategoryTo { get; set; }
+        public Category CategoryTo { get; set; }
         /// <summary>
         /// Сумма
         /// </summary>

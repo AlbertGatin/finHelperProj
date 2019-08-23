@@ -18,6 +18,11 @@ namespace FinHelper.DataContracts
         /// <summary>
         /// Категории в группе
         /// </summary>
-        public virtual ICollection<Category> Categories { get; set; }
+        public ICollection<Category> Categories { get; set; }
+
+        public Group()
+        {
+            Categories = new List<Category>();
+        }
     }
 }
